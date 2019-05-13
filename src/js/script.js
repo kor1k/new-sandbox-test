@@ -34,11 +34,14 @@ $(function(){
     slider = $(".slider");
 
     slider.slick({
-        dots: false,
+        infinite: true,
+        arrows: true,
+        dots: true,
+        dotsClass: 'custom-dots',
         // dotsClass: 'my-dots'
-        arrows: false,
+        // arrows: false,
         slidesToShow: 4,
-        slidesToScroll: 1
+        slidesToScroll: 4
     });
 
 });
