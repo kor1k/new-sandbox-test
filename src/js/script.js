@@ -21,6 +21,7 @@ $(function(){
                 tabC.eq(prevIndex).removeClass("show");
             }
             btn.eq(thIndex).addClass("active");
+            // btn.eq(thIndex).addClass("colored");
             tabC.eq(thIndex).addClass("show");
             prevIndex = thIndex;
 
@@ -28,6 +29,8 @@ $(function(){
             //if you have problem with slick in tabs, use next option
             //magic option
             tabC.eq(thIndex).find(".slider").slick('setPosition');
+
+
         }
     });
 
@@ -35,9 +38,9 @@ $(function(){
 
     slider.slick({
         infinite: true,
-        arrows: true,
         dots: true,
         dotsClass: 'custom-dots',
+        arrows: true,
         // dotsClass: 'my-dots'
         // arrows: false,
         slidesToShow: 4,
