@@ -2,20 +2,11 @@ $(function () {
     slider = $(".slider");
 
     slider.slick({
-        // infinite: true,
         arrows: true,
         dots: true,
         dotsClass: 'slick-dots',
         nextArrow: '<i class="fa fa-chevron-right"></i>',
-        // <i class="fas fa-chevron-right"></i>
         prevArrow: '<i class="fa fa-chevron-left"></i>',
-        // <i class="fas fa-chevron-left"></i>
-
-        // prevArrow: $('.prev'),
-        // nextArrow: $('.next'),
-        // arrowsClass: 'slick-prev, slick-next',
-        // dotsClass: 'my-dots'
-        // arrows: false,
         slidesToShow: 4,
         slidesToScroll: 2
     });
@@ -40,13 +31,8 @@ $(function () {
                 tabC.eq(prevIndex).removeClass("show");
             }
             btn.eq(thIndex).addClass("active");
-            // btn.eq(thIndex).addClass("colored");
             tabC.eq(thIndex).addClass("show");
             prevIndex = thIndex;
-
-            //slick position filter
-            //if you have problem with slick in tabs, use next option
-            //magic option
             tabC.eq(thIndex).find(".slider").slick('setPosition');
 
 

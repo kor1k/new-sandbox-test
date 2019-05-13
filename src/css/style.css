@@ -21,7 +21,6 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    /*width: 900px;*/
     width: 1000px;
     line-height: 25px;
     margin: 0 auto;
@@ -98,8 +97,6 @@
 }
 
 .tab-line {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
     width: 80px;
     height: 3px;
     background-color: #000000;
@@ -107,7 +104,6 @@
 }
 
 .line-finish {
-    /*width: 1190px;*/
     width: 100%;
     height: 0;
     border: 2px solid black;
@@ -121,7 +117,6 @@
     width: 0;
     top: -32px;
     right: -430px;
-    /*right: 50%;*/
     height: 0;
     border-style: solid;
     border-width: 0 14px 14px 14px;
@@ -141,9 +136,7 @@
 
 .lines {
     display: flex;
-    /*justify-content: start;*/
     align-items: center;
-    /*text-align: center;*/
 }
 
 .tab-line {
@@ -151,8 +144,6 @@
     display: flex;
     top: -100px;
     align-items: center;
-    /*margin: 50px;*/
-    /*margin-right: 50px;*/
     margin: 25px 50px 0 90px;
 }
 
@@ -164,21 +155,14 @@
     margin: 25px 50px 0 70px;
 }
 
-/*.tab-line:first-child {*/
-/*    width: 1px;*/
-/*}*/
-
 .tab {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*justify-content: space-between;*/
     width: 100%;
     margin: 50px 0 40px 0;
     overflow: hidden;
-    /*display: flex;*/
-    /*justify-content: center;*/
 }
 
 .btn {
@@ -186,12 +170,9 @@
     justify-content: center;
     position: relative;
     padding: 10px 20px;
-    /*display: inline-block;*/
     cursor: pointer;
     transition: .4s;
     filter: grayscale(100%);
-    /*width: 60px;*/
-    /*height: 60px;*/
 }
 
 .tabContentWrap {
@@ -227,11 +208,8 @@
 }
 
 .active {
-    /*background-color: blue;*/
     transform: scale(1.3);
     color: white;
-    /*filter: none;*/
-    /*filter: none;*/
     filter: none;
 }
 
@@ -243,7 +221,6 @@
     width: 100%;
     height: 250px;
     background-color: #ffffff;
-    /*transition: .4s ;*/
 }
 
 .slider-item:hover {
@@ -282,14 +259,6 @@
     transition: .4s;
 }
 
-/*.star-tab-img:hover,*/
-/*.oil-tab-img:hover,*/
-/*.exchange_green-tab-img:hover,*/
-/*.exchange_violet-tab-img:hover {*/
-/*    filter: none;*/
-/*}*/
-
-
 .star-tab {
     display: flex;
     align-items: center;
@@ -304,9 +273,7 @@
 .oil-tab-img {
     border: 2px solid #00a7cc;
     border-radius: 50%;
-    /*filter: none;*/
     transition: .4s;
-    /*filter: grayscale(100%);*/
 }
 
 .oil-tab {
@@ -323,12 +290,7 @@
 .stocks-tab-img {
     padding-left: 2px;
     transition: .4s;
-    /*filter: grayscale(100%);*/
 }
-
-/*.stocks-tab-img:hover {*/
-/*    filter: none;*/
-/*}*/
 
 .stocks-tab {
     background-color: #daa620;
@@ -341,7 +303,6 @@
     padding: 5px;
     border: 2px dashed black;
     border-radius: 50%;
-    /*filter: grayscale(100%);*/
 }
 
 .section-main-content-slider-items-hide {
@@ -352,15 +313,12 @@
     border: 2px solid #39b54a;
     border-radius: 50%;
     transition: .4s;
-    /*filter: none;*/
-    /*filter: grayscale(100%);*/
 }
 
 .exchange_violet-tab-img {
     border: 2px solid #8560a8;
     border-radius: 50%;
     transition: .4s;
-    /*filter: grayscale(100%);*/
 }
 
 .exchange_green-tab {
@@ -385,66 +343,13 @@
     margin-right: 10px;
 }
 
-/*__________*/
-
 .slick-slide {
     margin: 10px;
 }
 
 .slick-list {
     margin: 0 -5px 0 -5px;
-    /*width: 0;*/
-    /*height: 0;*/
-    /*display: none;*/
 }
-
-/*__________*/
-
-/*button.slick-next, button.slick-next:hover {*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    right: -50px;*/
-/*    background-image: url("../img/right-arrow.png");*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-
-/*button.slick-prev, button.slick-prev:hover {*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: -50px;*/
-/*    z-index: 1;*/
-/*    background-image: url("../img/left-arrow.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position-x: right;*/
-/*}*/
-
-/*.slick-prev:before, .slick-next:before {*/
-/*    font-size: 70px;*/
-/*    color: #EA8496;*/
-/*    line-height: inherit;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.slick-prev:before,*/
-/*.slick-next:before {*/
-/*    color: black;*/
-/*}*/
-
-/*.slick-dots {*/
-/*    bottom: -30px;*/
-/*}*/
-
-/*.slick-prev:after {*/
-/*    content: ">";*/
-/*    color: red;*/
-/*    font-size: 30px;*/
-/*}*/
-
-/*.slick-next:before {*/
-/*    content: "<";*/
-/*    color: red;*/
-/*    font-size: 30px;*/
-/*}*/
 
 .fa-chevron-right,
 .fa-chevron-left {
@@ -471,23 +376,6 @@
     font-size: 25px;
     cursor: pointer;
 }
-
-/*.fa-angle-right {*/
-/*    position: relative;*/
-/*    top: -160px;*/
-/*    display: flex;*/
-/*    justify-content: end;*/
-/*}*/
-
-/*.fa-angle-left {*/
-/*    position: relative;*/
-/*    top: 144px;*/
-/*    right: 0;*/
-/*    display: flex;*/
-/*    justify-content: start;*/
-/*    z-index: 10;*/
-/*}*/
-
 
 .slick-dots {
     display: flex;
@@ -521,82 +409,75 @@ li.slick-active button {
 
 }
 
-/*.asdasd:before {*/
-/*    content: 'O';*/
-/*    font-size: 30px;*/
-/*    color: black;*/
-/*    font-weight: 900;*/
+
+/*!*-----------------------------------------------------------------------custom dots start---------------------------------------------------------------------*!*/
+
+/*.custom-dots {*/
+/*    position: absolute;*/
+/*    bottom: -45px;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    padding: 0;*/
+/*    list-style: none;*/
+/*    text-align: center;*/
 /*}*/
 
+/*.custom-dots li {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    margin: 0 5px;*/
+/*    padding: 0;*/
+/*    cursor: pointer;*/
+/*}*/
 
-/*-----------------------------------------------------------------------custom dots start---------------------------------------------------------------------*/
+/*.custom-dots li button {*/
+/*    font-size: 0;*/
+/*    line-height: 0;*/
+/*    display: block;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    padding: 5px;*/
+/*    cursor: pointer;*/
+/*    color: transparent;*/
+/*    border: 0;*/
+/*    outline: none;*/
+/*    background: transparent;*/
+/*}*/
 
-.custom-dots {
-    position: absolute;
-    bottom: -45px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
+/*.custom-dots li button:hover,*/
+/*.custom-dots li button:focus {*/
+/*    outline: none;*/
+/*}*/
 
-.custom-dots li {
-    position: relative;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    padding: 0;
-    cursor: pointer;
-}
+/*.custom-dots li button:hover:before,*/
+/*.custom-dots li button:focus:before {*/
+/*    opacity: 1;*/
+/*}*/
 
-.custom-dots li button {
-    font-size: 0;
-    line-height: 0;
-    display: block;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    cursor: pointer;
-    color: transparent;
-    border: 0;
-    outline: none;
-    background: transparent;
-}
+/*.custom-dots li button:before {*/
+/*    font-family: 'slick';*/
+/*    font-size: 30px;*/
+/*    line-height: 20px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    content: '•';*/
+/*    text-align: center;*/
+/*    opacity: .25;*/
+/*    color: black;*/
+/*    -webkit-font-smoothing: antialiased;*/
+/*    -moz-osx-font-smoothing: grayscale;*/
+/*    -webkit-text-stroke: 1px silver;*/
+/*    text-shadow: 1px 1px 0 silver, -1px -1px 0 silver, 1px -1px 0 silver, -1px 1px 0 silver, 1px 1px 0 silver;*/
 
-.custom-dots li button:hover,
-.custom-dots li button:focus {
-    outline: none;
-}
+/*}*/
 
-.custom-dots li button:hover:before,
-.custom-dots li button:focus:before {
-    opacity: 1;
-}
-
-.custom-dots li button:before {
-    font-family: 'slick';
-    font-size: 30px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '•';
-    text-align: center;
-    opacity: .25;
-    color: black;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke: 1px silver;
-    text-shadow: 1px 1px 0 silver, -1px -1px 0 silver, 1px -1px 0 silver, -1px 1px 0 silver, 1px 1px 0 silver;
-
-}
-
-.custom-dots li.slick-active button:before {
-    opacity: .75;
-    color: black;
-}
+/*.custom-dots li.slick-active button:before {*/
+/*    opacity: .75;*/
+/*    color: black;*/
+/*}*/
 
 /*-----------------------------------------------------------------------custom dots end---------------------------------------------------------------------*/
 
