@@ -2,6 +2,8 @@ $(function () {
     slider = $(".slider");
 
     slider.slick({
+        // autoplay: true,
+        // autoplaySpeed: 3000,
         arrows: true,
         dots: true,
         dotsClass: 'slick-dots',
