@@ -21,7 +21,9 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 900px;
+    /*width: 900px;*/
+    width: 1000px;
+    line-height: 25px;
     margin: 0 auto;
     font-size: 20px;
 }
@@ -95,24 +97,25 @@
     margin-top: 15px;
 }
 
-.section-main-content-progress-bar-lines {
-    display: flex;
-    justify-content: space-between;
-    width: 140px;
+.tab-line {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 80px;
     height: 3px;
     background-color: #000000;
     opacity: 0.1;
 }
 
-.section-main-content-progress-bar-finish-line {
-    width: 1190px;
+.line-finish {
+    /*width: 1190px;*/
+    width: 100%;
     height: 0;
     border: 2px solid black;
     opacity: 0.1;
-    margin: 20px 0 64px 0;
+    margin: -30px 0 64px 0;
 }
 
-.section-main-content-progress-bar-finish-line:before {
+.line-finish:before {
     content: "";
     position: relative;
     width: 0;
@@ -136,10 +139,41 @@
     transition: .4s;
 }
 
+.lines {
+    display: flex;
+    /*justify-content: start;*/
+    align-items: center;
+    /*text-align: center;*/
+}
+
+.tab-line {
+    position: relative;
+    display: flex;
+    top: -100px;
+    align-items: center;
+    /*margin: 50px;*/
+    /*margin-right: 50px;*/
+    margin: 25px 50px 0 90px;
+}
+
+.tab-line:nth-child(3) {
+    margin: 25px 50px 0 70px;
+}
+
+.tab-line:nth-child(4) {
+    margin: 25px 50px 0 70px;
+}
+
+/*.tab-line:first-child {*/
+/*    width: 1px;*/
+/*}*/
+
 .tab {
     position: relative;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /*justify-content: space-between;*/
     width: 100%;
     margin: 50px 0 40px 0;
     overflow: hidden;
@@ -287,7 +321,7 @@
 }
 
 .stocks-tab-img {
-    padding-left: 3px;
+    padding-left: 2px;
     transition: .4s;
     /*filter: grayscale(100%);*/
 }
@@ -475,15 +509,16 @@ button {
     height: 10px;
     padding: 0;
     border: none;
+    background-color: gray;
     border-radius: 100%;
-    background-color: black;
     text-indent: -9999px;
     cursor: pointer;
 }
 
 li.slick-active button {
-    background-color: gray;
     cursor: pointer;
+    background-color: black;
+
 }
 
 /*.asdasd:before {*/
