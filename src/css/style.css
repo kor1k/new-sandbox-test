@@ -287,8 +287,8 @@
     font-weight: 900;
     position: relative;
     /*-webkit-animation: fadeIn 1.5s ease 0s infinite normal;*/
-    /*animation: fadeIn 1.5s ease 0s infinite normal;*/
-    animation: fadeIn 1s alternate;
+    animation: fadeIn 1.5s ease 0s infinite normal;
+    /*animation: fadeIn 1s alternate;*/
     /*bottom: 20px;*/
 }
 
@@ -311,6 +311,7 @@
     width: 100%;
     overflow: hidden;
     padding: 10px;
+    height: 100%;
 }
 
 .tabContent {
