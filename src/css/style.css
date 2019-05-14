@@ -141,12 +141,12 @@
     margin-top: 15px;
 }
 
-.tab-line {
-    width: 80px;
-    height: 3px;
-    background-color: #000000;
-    opacity: 0.1;
-}
+/*.tab-line {*/
+/*    width: 80px;*/
+/*    height: 3px;*/
+/*    background-color: #000000;*/
+/*    opacity: 0.1;*/
+/*}*/
 
 .line-finish {
     width: 100%;
@@ -205,16 +205,25 @@
     display: none;
 }
 
+.wrapper-test {
+    text-align: center;
+}
+
 .tab-line {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    top: -113px;
+    /*top: -113px;*/
+    bottom: 106px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     margin: 25px 50px 0 90px;
+    width: 80px;
+    height: 3px;
+    background-color: #000000;
+    opacity: 0.1;
 }
 
 .tab-line:nth-child(3) {
