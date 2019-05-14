@@ -207,6 +207,7 @@
 
 .wrapper-test {
     text-align: center;
+    position: relative;
 }
 
 .tab-line {
@@ -247,7 +248,7 @@
     align-items: center;
     width: 100%;
     margin: 50px 0 40px 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 80px;
 }
 
@@ -436,7 +437,6 @@
 
 }
 
-
 .oil-title-TEST {
     display: none;
     /*margin-left: 5px;*/
@@ -459,6 +459,9 @@
 }
 
 .active-TEST-tab {
+    position: absolute;
+    /*bottom: 75%;*/
+    bottom: 100%;
     /*margin: 0 0 0 12px;*/
     display: block;
     color: black;
@@ -488,7 +491,7 @@
 .tabContentWrap {
     position: relative;
     width: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 10px;
     height: 100%;
     -webkit-animation: fadeIn 1.5s ease 0s normal;
