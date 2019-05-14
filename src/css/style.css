@@ -208,6 +208,7 @@
 .wrapper-test {
     text-align: center;
     position: relative;
+    /*left: -50%;*/
 }
 
 .tab-line {
@@ -460,6 +461,8 @@
 
 .active-TEST-tab {
     position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
     /*bottom: 75%;*/
     bottom: 100%;
     /*margin: 0 0 0 12px;*/
