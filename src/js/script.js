@@ -18,11 +18,57 @@ $(function () {
     btn = $(".btn");
     tabC = $(".tabContent");
     tabTitle = $(".tab-title");
+    // tabTitle2 = $('.tab-title-oil');
+    notActiveTabTitle = $('not-active-title');
+
+    $('.btn-1').click(function () {
+        $('.title-test-text-1').addClass('active-title');
+        $('.title-test-text-2').removeClass('active-title');
+        $('.title-test-text-3').removeClass('active-title');
+        $('.title-test-text-4').removeClass('active-title');
+        $('.title-test-text-5').removeClass('active-title');
+    });
+
+    $('.btn-2').click(function () {
+        $('.title-test-text-1').removeClass('active-title');
+        $('.title-test-text-2').addClass('active-title');
+        $('.title-test-text-3').removeClass('active-title');
+        $('.title-test-text-4').removeClass('active-title');
+        $('.title-test-text-5').removeClass('active-title');
+    });
+
+    $('.btn-3').click(function () {
+        $('.title-test-text-1').removeClass('active-title');
+        $('.title-test-text-2').removeClass('active-title');
+        $('.title-test-text-3').addClass('active-title');
+        $('.title-test-text-4').removeClass('active-title');
+        $('.title-test-text-5').removeClass('active-title');
+    });
+
+    $('.btn-4').click(function () {
+        $('.title-test-text-1').removeClass('active-title');
+        $('.title-test-text-2').removeClass('active-title');
+        $('.title-test-text-3').removeClass('active-title');
+        $('.title-test-text-4').addClass('active-title');
+        $('.title-test-text-5').removeClass('active-title');
+    });
+
+    $('.btn-5').click(function () {
+        $('.title-test-text-1').removeClass('active-title');
+        $('.title-test-text-2').removeClass('active-title');
+        $('.title-test-text-3').removeClass('active-title');
+        $('.title-test-text-4').removeClass('active-title');
+        $('.title-test-text-5').addClass('active-title');
+    });
 
     // btn.click(function () {
     //     // tabTitle.show('show');
     //     $('.tab-title-star').addClass('show')
     // })
+
+    // $('.btn-2').click(function () {
+    //     $('.tab-title-oil').addClass('show');
+    // });
 
     prevIndex = 0;
 
@@ -37,11 +83,17 @@ $(function () {
             if (prevIndex !== thIndex && prevIndex !== 'undefined') {
                 btn.eq(prevIndex).removeClass("active");
                 tabC.eq(prevIndex).removeClass("show");
-                tabTitle.eq(prevIndex).addClass("show");
+                // tabTitle.show();
+                // tabTitle.eq(prevIndex).addClass("show");
             }
+            // tabTitle.hide();
+            $('.btn-2').click(function () {
+                // tabTitle2.addClass('show');
+                tabTitle2.toggleClass('show');
+            });
             btn.eq(thIndex).addClass("active");
             tabC.eq(thIndex).addClass("show");
-            tabTitle.eq(prevIndex).addClass("show");
+            // tabTitle.eq(prevIndex).addClass("show");
             prevIndex = thIndex;
             tabC.eq(thIndex).find(".slider").slick('setPosition');
         }
