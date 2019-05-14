@@ -6,7 +6,7 @@ $(function () {
         // autoplaySpeed: 3000,
         arrows: true,
         dots: true,
-        dotsClass: 'slick-dots',
+        // dotsClass: 'slick-dots',
         nextArrow: '<i class="fa fa-chevron-right"></i>',
         prevArrow: '<i class="fa fa-chevron-left"></i>',
         slidesToShow: 4,
@@ -17,6 +17,12 @@ $(function () {
 
     btn = $(".btn");
     tabC = $(".tabContent");
+    tabTitle = $(".tab-title");
+
+    // btn.click(function () {
+    //     // tabTitle.show('show');
+    //     $('.tab-title-star').addClass('show')
+    // })
 
     prevIndex = 0;
 
@@ -31,13 +37,13 @@ $(function () {
             if (prevIndex !== thIndex && prevIndex !== 'undefined') {
                 btn.eq(prevIndex).removeClass("active");
                 tabC.eq(prevIndex).removeClass("show");
+                tabTitle.eq(prevIndex).addClass("show");
             }
             btn.eq(thIndex).addClass("active");
             tabC.eq(thIndex).addClass("show");
+            tabTitle.eq(prevIndex).addClass("show");
             prevIndex = thIndex;
             tabC.eq(thIndex).find(".slider").slick('setPosition');
-
-
         }
     });
 });

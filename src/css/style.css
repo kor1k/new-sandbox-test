@@ -139,6 +139,14 @@
     align-items: center;
 }
 
+.tab-title-star,
+.tab-title-oil,
+.tab-title-stocks,
+.tab-title-green,
+.tab-title-violet {
+    display: none;
+}
+
 .tab-line {
     position: relative;
     display: flex;
