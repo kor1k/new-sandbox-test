@@ -441,25 +441,21 @@
     display: none;
     /*margin-left: 5px;*/
     font-family: Helvetica;
-
 }
 
 .stocks-title-TEST {
     display: none;
     font-family: Helvetica;
-
 }
 
 .green-title-TEST {
     display: none;
     font-family: Helvetica;
-
 }
 
 .violet-title-TEST {
     display: none;
     font-family: Helvetica;
-
 }
 
 .active-TEST-tab {
@@ -469,6 +465,7 @@
     font-weight: 900;
     text-align: center;
     margin-bottom: 5px;
+    animation: fadeIn 1.5s ease 0s normal;
 }
 
 .btn {
