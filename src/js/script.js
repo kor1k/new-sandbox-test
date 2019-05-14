@@ -1,6 +1,5 @@
 $(function () {
     slider = $(".slider");
-
     slider.slick({
         // autoplay: true,
         // autoplaySpeed: 3000,
@@ -12,14 +11,18 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 2
     });
+
     // vars
     var slider, btn, tabC, prevIndex, objTab = {};
-
     btn = $(".btn");
+
     tabC = $(".tabContent");
     tabTitle = $(".tab-title");
     // tabTitle2 = $('.tab-title-oil');
-    notActiveTabTitle = $('not-active-title');
+    // notActiveTabTitle = $('not-active-title');
+
+
+    $('.title-test-text-1').addClass('active-title');
 
     $('.btn-1').click(function () {
         $('.title-test-text-1').addClass('active-title');
@@ -87,10 +90,6 @@ $(function () {
                 // tabTitle.eq(prevIndex).addClass("show");
             }
             // tabTitle.hide();
-            $('.btn-2').click(function () {
-                // tabTitle2.addClass('show');
-                tabTitle2.toggleClass('show');
-            });
             btn.eq(thIndex).addClass("active");
             tabC.eq(thIndex).addClass("show");
             // tabTitle.eq(prevIndex).addClass("show");
