@@ -5,6 +5,10 @@
     list-style: none;
 }
 
+/*body {*/
+/*    background: linear-gradient(45deg,#563bac 0,#5327ab 24%,#5b75ae 48%,#66dbb1 100%);*/
+/*}*/
+
 .main-title {
     font-family: HelveticaBold;
     display: flex;
@@ -250,8 +254,8 @@
     position: relative;
     bottom: -44px;
     left: -206px;
-    -webkit-animation: jump 1.5s ease 0s normal;
-    animation: jump 1.5s ease 0s normal;
+    /*-webkit-animation: jump 1.5s ease 0s normal;*/
+    /*animation: fadeIn;*/
 }
 
 .title-test-text-3 {
@@ -287,7 +291,7 @@
     font-weight: 900;
     position: relative;
     /*-webkit-animation: fadeIn 1.5s ease 0s infinite normal;*/
-    animation: fadeIn 1.5s ease 0s infinite normal;
+    animation: fadeIn 1.5s ease 0s normal;
     /*animation: fadeIn 1s alternate;*/
     /*bottom: 20px;*/
 }
