@@ -180,7 +180,6 @@
 .title-test {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 }
 
 /*@-webkit-keyframes jump {*/
@@ -316,6 +315,7 @@
     overflow: hidden;
     padding: 10px;
     height: 100%;
+    animation: fadeIn 1.5s ease 0s normal;
 }
 
 .tabContent {
@@ -358,6 +358,7 @@
     height: 250px;
     background-color: #ffffff;
     user-select: none;
+    animation: fadeIn 1.5s ease 0s normal;
 }
 
 .slider-item:hover {
