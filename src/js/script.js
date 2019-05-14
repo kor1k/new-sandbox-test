@@ -15,46 +15,87 @@ $(function () {
     tabC = $(".tabContent");
 
 
-    $('.title-test-text-1').addClass('active-title');
+    // $('.btn-1').click(function () {
+    //     $('.title-test-text-1').addClass('active-title');
+    //     $('.title-test-text-2').removeClass('active-title');
+    //     $('.title-test-text-3').removeClass('active-title');
+    //     $('.title-test-text-4').removeClass('active-title');
+    //     $('.title-test-text-5').removeClass('active-title');
+    // });
+    //
+    // $('.btn-2').click(function () {
+    //     $('.title-test-text-1').removeClass('active-title');
+    //     $('.title-test-text-2').addClass('active-title');
+    //     $('.title-test-text-3').removeClass('active-title');
+    //     $('.title-test-text-4').removeClass('active-title');
+    //     $('.title-test-text-5').removeClass('active-title');
+    // });
+    //
+    // $('.btn-3').click(function () {
+    //     $('.title-test-text-1').removeClass('active-title');
+    //     $('.title-test-text-2').removeClass('active-title');
+    //     $('.title-test-text-3').addClass('active-title');
+    //     $('.title-test-text-4').removeClass('active-title');
+    //     $('.title-test-text-5').removeClass('active-title');
+    // });
+    //
+    // $('.btn-4').click(function () {
+    //     $('.title-test-text-1').removeClass('active-title');
+    //     $('.title-test-text-2').removeClass('active-title');
+    //     $('.title-test-text-3').removeClass('active-title');
+    //     $('.title-test-text-4').addClass('active-title');
+    //     $('.title-test-text-5').removeClass('active-title');
+    // });
+    //
+    // $('.btn-5').click(function () {
+    //     $('.title-test-text-1').removeClass('active-title');
+    //     $('.title-test-text-2').removeClass('active-title');
+    //     $('.title-test-text-3').removeClass('active-title');
+    //     $('.title-test-text-4').removeClass('active-title');
+    //     $('.title-test-text-5').addClass('active-title');
+    // });
+
+    $('.star-title-TEST').addClass('active-TEST-tab');
     $('.btn-1').click(function () {
-        $('.title-test-text-1').addClass('active-title');
-        $('.title-test-text-2').removeClass('active-title');
-        $('.title-test-text-3').removeClass('active-title');
-        $('.title-test-text-4').removeClass('active-title');
-        $('.title-test-text-5').removeClass('active-title');
+        $('.star-title-TEST').addClass('active-TEST-tab');
+        $('.oil-title-TEST').removeClass('active-TEST-tab');
+        $('.stocks-title-TEST').removeClass('active-TEST-tab');
+        $('.green-title-TEST').removeClass('active-TEST-tab');
+        $('.violet-title-TEST').removeClass('active-TEST-tab');
     });
 
     $('.btn-2').click(function () {
-        $('.title-test-text-1').removeClass('active-title');
-        $('.title-test-text-2').addClass('active-title');
-        $('.title-test-text-3').removeClass('active-title');
-        $('.title-test-text-4').removeClass('active-title');
-        $('.title-test-text-5').removeClass('active-title');
+        $('.star-title-TEST').removeClass('active-TEST-tab');
+        $('.oil-title-TEST').addClass('active-TEST-tab');
+        $('.stocks-title-TEST').removeClass('active-TEST-tab');
+        $('.green-title-TEST').removeClass('active-TEST-tab');
+        $('.violet-title-TEST').removeClass('active-TEST-tab');
     });
 
     $('.btn-3').click(function () {
-        $('.title-test-text-1').removeClass('active-title');
-        $('.title-test-text-2').removeClass('active-title');
-        $('.title-test-text-3').addClass('active-title');
-        $('.title-test-text-4').removeClass('active-title');
-        $('.title-test-text-5').removeClass('active-title');
+        $('.star-title-TEST').removeClass('active-TEST-tab');
+        $('.oil-title-TEST').removeClass('active-TEST-tab');
+        $('.stocks-title-TEST').addClass('active-TEST-tab');
+        $('.green-title-TEST').removeClass('active-TEST-tab');
+        $('.violet-title-TEST').removeClass('active-TEST-tab');
     });
 
     $('.btn-4').click(function () {
-        $('.title-test-text-1').removeClass('active-title');
-        $('.title-test-text-2').removeClass('active-title');
-        $('.title-test-text-3').removeClass('active-title');
-        $('.title-test-text-4').addClass('active-title');
-        $('.title-test-text-5').removeClass('active-title');
+        $('.oil-title-TEST').removeClass('active-TEST-tab');
+        $('.star-title-TEST').removeClass('active-TEST-tab');
+        $('.stocks-title-TEST').removeClass('active-TEST-tab');
+        $('.green-title-TEST').addClass('active-TEST-tab');
+        $('.violet-title-TEST').removeClass('active-TEST-tab');
     });
 
     $('.btn-5').click(function () {
-        $('.title-test-text-1').removeClass('active-title');
-        $('.title-test-text-2').removeClass('active-title');
-        $('.title-test-text-3').removeClass('active-title');
-        $('.title-test-text-4').removeClass('active-title');
-        $('.title-test-text-5').addClass('active-title');
+        $('.star-title-TEST').removeClass('active-TEST-tab');
+        $('.oil-title-TEST').removeClass('active-TEST-tab');
+        $('.stocks-title-TEST').removeClass('active-TEST-tab');
+        $('.green-title-TEST').removeClass('active-TEST-tab');
+        $('.violet-title-TEST').addClass('active-TEST-tab');
     });
+
 
     prevIndex = 0;
 
